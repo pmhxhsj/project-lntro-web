@@ -6,20 +6,17 @@ const Contents = ({ project_img, project_title, project_intro, project_url }) =>
     <div>
       <h1>{project_title}</h1>
       <div>
-        <img src={project_img} alt={project_title} />
+        <img className={styles.imgWidth} src={project_img} alt={project_title} />
       </div>
       <div>
-        <span>{project_intro}</span>
+        <span className={styles.blockSpan}>{project_intro}</span>
       </div>
+      Github Link:{" "}
       <a href={project_url} target="_blank">
         {project_title}
       </a>
     </div>
   );
-};
-
-Contents.propTypes = {
-  text: PropTypes.string.isRequired,
 };
 
 export default Contents;
