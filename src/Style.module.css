@@ -16,3 +16,12 @@
 .item {
   flex: 1 1 40%;
 }
+
+.blockSpan {
+  display: inline-block;
+  width: 500px;
+}
+
+.imgWidth {
+  width: 500px;
+}
