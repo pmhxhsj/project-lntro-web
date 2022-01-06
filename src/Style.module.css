@@ -1,9 +1,8 @@
 .header {
   text-align: center;
-  background-color: rgb(190, 210, 211);
-  color: white;
+  color: #02343f;
   border: 0px;
-  font-size: 30px;
+  font-size: 70px;
   padding: 10px 20px;
 }
 
@@ -12,9 +11,14 @@
   justify-content: space-evenly;
   flex-flow: row wrap;
 }
-
+.title {
+  border: 0px;
+  color: #02343f;
+  text-align: center;
+}
 .item {
   flex: 1 1 40%;
+  align-self: center;
 }
 
 .blockSpan {
@@ -24,4 +28,6 @@
 
 .imgWidth {
   width: 500px;
+  height: 500px;
+  /* bor */
 }
